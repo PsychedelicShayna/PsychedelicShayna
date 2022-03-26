@@ -46,6 +46,6 @@ jobs:
           plugin_languages_threshold: 0%
           plugin_lines: yes
           plugin_topics: yes
-          plugin_topics_limit: 15
+          plugin_topics_limit: 30
           plugin_topics_mode: icons
-          plugin_topics_sort: starred
+          plugin_topics_sort: stars
