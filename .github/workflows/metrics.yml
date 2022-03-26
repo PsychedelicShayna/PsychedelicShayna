@@ -1,4 +1,3 @@
-# Visit https://github.com/lowlighter/metrics/blob/master/action.yml for full reference
 name: Metrics
 on:
   # Schedule updates (each hour)
@@ -32,6 +31,13 @@ jobs:
           plugin_activity_limit: 5
           plugin_activity_load: 300
           plugin_activity_visibility: all
+          plugin_anilist: yes
+          plugin_anilist_limit: 4
+          plugin_anilist_limit_characters: 20
+          plugin_anilist_medias: anime, manga
+          plugin_anilist_sections: favorites
+          plugin_anilist_shuffle: yes
+          plugin_anilist_user: PsychedelicShayna
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
