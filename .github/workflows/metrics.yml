@@ -35,7 +35,7 @@ jobs:
           plugin_anilist_limit: 6
           plugin_anilist_limit_characters: 36
           plugin_anilist_medias: anime, manga
-          plugin_anilist_sections: favorites, characters
+          plugin_anilist_sections: characters
           plugin_anilist_shuffle: no
           plugin_anilist_user: PsychedelicShayna
           plugin_languages: yes
