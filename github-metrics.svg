@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="717" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="750" class="">
     <defs>
         <style/>
     </defs>
@@ -45,7 +45,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    494k added, 257k removed
+                                    485k added, 252k removed
                                 </div>
                             </section>
                             <section>
@@ -93,14 +93,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="421.76098644826743" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="421.76098644826743" y="0" width="15.654805096983395" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="437.4157915452508" y="0" width="7.0107511176347455" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="444.42654266288554" y="0" width="4.331841455300767" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="448.7583841181863" y="0" width="4.0559621976420654" height="8" fill="#701516"/>
-                    <rect mask="url(#languages-bar)" x="452.8143463158284" y="0" width="3.3234417333242185" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="456.1377880491527" y="0" width="2.337405321083544" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="458.4751933702362" y="0" width="1.5248066297638796" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="421.6775531983989" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="421.6775531983989" y="0" width="15.651708245194666" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="437.3292614435936" y="0" width="7.100361978772006" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="444.4296234223656" y="0" width="4.3309845253756585" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="448.7606079477412" y="0" width="4.0551598424732225" height="8" fill="#701516"/>
+                    <rect mask="url(#languages-bar)" x="452.81576779021447" y="0" width="3.3227842862073227" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="456.13855207642183" y="0" width="2.3369429328388653" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="458.47549500926067" y="0" width="1.5245049907393375" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -112,7 +112,7 @@
                                 C++
                             </div>
                             <small>
-                                <div>91.69%</div>
+                                <div>91.67%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -123,7 +123,7 @@
                                 Kotlin
                             </div>
                             <small>
-                                <div>1.52%</div>
+                                <div>1.54%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -242,6 +242,34 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 3 commits in
+                                        <span class="repo">PsychedelicShayna/krypton-android</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#c787dc3</div>
+                                        <div class="message">Changed AlertDialog settings for long password prompt</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#c4513f8</div>
+                                        <div class="message">Fixed wrong index range for unsaved changes feature</div>
+                                    </div>
+                                    <div class="commit">
+                                        <div class="sha">#11c9f0f</div>
+                                        <div class="message">Created confirmation prompt for long passwords + cleanup</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 1 commit in
                                         <span class="repo">PsychedelicShayna/krypton-android</span>
                                     </div>
@@ -308,32 +336,12 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">PsychedelicShayna/tixati-python-api-cli</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#aab75f8</div>
-                                        <div class="message">Updated .gitignore</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 15 Jun 2022, 21:11:14 (timezone UTC) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 15 Jun 2022, 22:07:22 (timezone UTC) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
