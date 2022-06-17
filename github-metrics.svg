@@ -45,7 +45,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    494k added, 257k removed
+                                    485k added, 252k removed
                                 </div>
                             </section>
                             <section>
@@ -93,14 +93,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="421.849827217978" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="421.849827217978" y="0" width="15.658102663565352" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="437.5079298815433" y="0" width="6.915332350052088" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="444.4232622315954" y="0" width="4.332753925020628" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="448.75601615661606" y="0" width="4.056816555477745" height="8" fill="#701516"/>
-                    <rect mask="url(#languages-bar)" x="452.8128327120938" y="0" width="3.3241417912507787" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="456.1369745033445" y="0" width="2.337897677879272" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="458.4748721812238" y="0" width="1.525127818776142" height="8" fill="#ededed"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="421.6814913647708" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="421.6814913647708" y="0" width="15.651854420941051" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="437.33334578571186" y="0" width="7.096132220486908" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="444.42947800619874" y="0" width="4.331024973669587" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="448.7605029798683" y="0" width="4.055197714762139" height="8" fill="#701516"/>
+                    <rect mask="url(#languages-bar)" x="452.8157006946305" y="0" width="3.3228153186330176" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="456.1385160132635" y="0" width="2.336964758212308" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="458.47548077147576" y="0" width="1.5245192285242106" height="8" fill="#ededed"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -112,7 +112,7 @@
                                 C++
                             </div>
                             <small>
-                                <div>91.71%</div>
+                                <div>91.67%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -123,7 +123,7 @@
                                 Kotlin
                             </div>
                             <small>
-                                <div>1.5%</div>
+                                <div>1.54%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -242,6 +242,38 @@
                                         <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
                                     </svg>
                                     <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">PsychedelicShayna/krypton-android</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
+                                        <div class="sha">#2f0438e</div>
+                                        <div class="message">Fixed load/save to Dropbox, Google Drive, etc. Added retry dialog.
+
+Instead of asking the contentResolver for file descriptors, and using
+them to open manual input/output streams to vault files, the
+contentResolver is now asked to open those streams directly, fixing the
+bug where writing to cloud service document providers like Dropbox or
+Google Drive didn't work.
+
+Also implemented a "retry" system for integrity checks, allowing you to
+re-attempt the check in cases where the check is performed while another
+process has a lock on the file (like Dropbox), or if the file doesn't
+exist yet by the time the read is attempted. The integrity check dialog
+now allows retrying.</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
                                         Pushed 2 commits in
                                         <span class="repo">PsychedelicShayna/krypton-android</span>
                                     </div>
@@ -348,32 +380,12 @@ This reverts commit 7502a430502ab602262260a7baf26f1b64b9f9f5.</div>
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">PsychedelicShayna/krypton-android</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#9d671e7</div>
-                                        <div class="message">Replaced for loop with .forEach to avoid unused parameter</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 17 Jun 2022, 22:11:40 (timezone UTC) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 17 Jun 2022, 23:07:28 (timezone UTC) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
