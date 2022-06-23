@@ -45,7 +45,7 @@
                                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                         <path fill-rule="evenodd" d="M2.75 1.5a.25.25 0 00-.25.25v12.5c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V4.664a.25.25 0 00-.073-.177l-2.914-2.914a.25.25 0 00-.177-.073H2.75zM1 1.75C1 .784 1.784 0 2.75 0h7.586c.464 0 .909.184 1.237.513l2.914 2.914c.329.328.513.773.513 1.237v9.586A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V1.75zm7 1.5a.75.75 0 01.75.75v1.5h1.5a.75.75 0 010 1.5h-1.5v1.5a.75.75 0 01-1.5 0V7h-1.5a.75.75 0 010-1.5h1.5V4A.75.75 0 018 3.25zm-3 8a.75.75 0 01.75-.75h4.5a.75.75 0 010 1.5h-4.5a.75.75 0 01-.75-.75z"/>
                                     </svg>
-                                    502k added, 264k removed
+                                    501k added, 264k removed
                                 </div>
                             </section>
                             <section>
@@ -93,14 +93,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="421.1326482981595" height="8" fill="#f34b7d"/>
-                    <rect mask="url(#languages-bar)" x="421.1326482981595" y="0" width="14.969188679749236" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="436.1018369779087" y="0" width="6.888656558603406" height="8" fill="#A97BFF"/>
-                    <rect mask="url(#languages-bar)" x="442.99049353651213" y="0" width="4.325387891946066" height="8" fill="#555555"/>
-                    <rect mask="url(#languages-bar)" x="447.31588142845817" y="0" width="4.049919638310925" height="8" fill="#701516"/>
-                    <rect mask="url(#languages-bar)" x="451.36580106676905" y="0" width="3.3184904806057207" height="8" fill="#012456"/>
-                    <rect mask="url(#languages-bar)" x="454.6842915473748" y="0" width="2.9817853904102707" height="8" fill="#5e5086"/>
-                    <rect mask="url(#languages-bar)" x="457.666076937785" y="0" width="2.333923062214913" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="421.07570060575745" height="8" fill="#f34b7d"/>
+                    <rect mask="url(#languages-bar)" x="421.07570060575745" y="0" width="14.967164470142391" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="436.04286507589984" y="0" width="6.887725039528958" height="8" fill="#A97BFF"/>
+                    <rect mask="url(#languages-bar)" x="442.9305901154288" y="0" width="4.324802991059885" height="8" fill="#555555"/>
+                    <rect mask="url(#languages-bar)" x="447.25539310648867" y="0" width="4.049371987638987" height="8" fill="#701516"/>
+                    <rect mask="url(#languages-bar)" x="451.3047650941276" y="0" width="3.3180417374938003" height="8" fill="#012456"/>
+                    <rect mask="url(#languages-bar)" x="454.62280683162146" y="0" width="3.0435857110761626" height="8" fill="#5e5086"/>
+                    <rect mask="url(#languages-bar)" x="457.66639254269757" y="0" width="2.333607457302366" height="8" fill="#dea584"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -112,7 +112,7 @@
                                 C++
                             </div>
                             <small>
-                                <div>91.55%</div>
+                                <div>91.54%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -145,7 +145,7 @@
                                 Haskell
                             </div>
                             <small>
-                                <div>0.65%</div>
+                                <div>0.66%</div>
                             </small>
                         </div>
                     </section>
@@ -249,6 +249,26 @@
                                 <div class="details">
                                     <div>on branch <span class="code">master</span></div>
                                     <div class="commit">
+                                        <div class="sha">#536d1ae</div>
+                                        <div class="message">Added space-age.hs</div>
+                                    </div>
+                                </div>
+                            </section>
+                        </div>
+                        <div class="row fill-width">
+                            <section class="activity">
+                                <div class="field">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
+                                    </svg>
+                                    <div class="content">
+                                        Pushed 1 commit in
+                                        <span class="repo">PsychedelicShayna/haskell-playground</span>
+                                    </div>
+                                </div>
+                                <div class="details">
+                                    <div>on branch <span class="code">master</span></div>
+                                    <div class="commit">
                                         <div class="sha">#fa49f1e</div>
                                         <div class="message">Added leap-year.hs</div>
                                     </div>
@@ -327,32 +347,12 @@
                                 </div>
                             </section>
                         </div>
-                        <div class="row fill-width">
-                            <section class="activity">
-                                <div class="field">
-                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                        <path fill-rule="evenodd" d="M10.5 7.75a2.5 2.5 0 11-5 0 2.5 2.5 0 015 0zm1.43.75a4.002 4.002 0 01-7.86 0H.75a.75.75 0 110-1.5h3.32a4.001 4.001 0 017.86 0h3.32a.75.75 0 110 1.5h-3.32z"/>
-                                    </svg>
-                                    <div class="content">
-                                        Pushed 1 commit in
-                                        <span class="repo">PsychedelicShayna/haskell-playground</span>
-                                    </div>
-                                </div>
-                                <div class="details">
-                                    <div>on branch <span class="code">master</span></div>
-                                    <div class="commit">
-                                        <div class="sha">#ba75571</div>
-                                        <div class="message">Added 9-datatypes.hs</div>
-                                    </div>
-                                </div>
-                            </section>
-                        </div>
                     </section>
                 </div>
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 23 Jun 2022, 17:14:19 (timezone UTC) with lowlighter/metrics@3.24.0</span>
+                <span>Last updated 23 Jun 2022, 18:09:40 (timezone UTC) with lowlighter/metrics@3.24.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
