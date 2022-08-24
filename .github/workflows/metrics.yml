@@ -43,7 +43,7 @@ jobs:
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
           plugin_languages_details: byte-size, percentage
-          plugin_languages_ignored: html, css, batchfile
+          plugin_languages_ignored: html, css, batchfile, ruby
           plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
