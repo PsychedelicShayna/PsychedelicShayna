@@ -216,15 +216,15 @@
             </section>
             <section class="column">
                 <h3 class="field">Recently used languages</h3>
-                <small>estimation from 110kb of code in 65 edited files across 20 commits over last 14 days</small>
+                <small>estimation from 109kb of code in 65 edited files across 20 commits over last 14 days</small>
                 <svg class="bar" xmlns="http://www.w3.org/2000/svg" width="460" height="8">
                     <mask id="languages-bar">
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="359.6136693353393" height="8" fill="#000080"/>
-                    <rect mask="url(#languages-bar)" x="359.6136693353393" y="0" width="99.68808769007576" height="8" fill="#dea584"/>
-                    <rect mask="url(#languages-bar)" x="459.30175702541504" y="0" width="0.6982429745849229" height="8" fill="#9c4221"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="361.3757913635075" height="8" fill="#000080"/>
+                    <rect mask="url(#languages-bar)" x="361.3757913635075" y="0" width="97.92254424211336" height="8" fill="#dea584"/>
+                    <rect mask="url(#languages-bar)" x="459.2983356056209" y="0" width="0.7016643943791256" height="8" fill="#9c4221"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -237,7 +237,7 @@
                             </div>
                             <small>
                                 <div>1.97k lines</div>
-                                <div>78.18%</div>
+                                <div>78.56%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -262,8 +262,8 @@
                                 Rust
                             </div>
                             <small>
-                                <div>468 lines</div>
-                                <div>21.67%</div>
+                                <div>543 lines</div>
+                                <div>21.29%</div>
                             </small>
                         </div>
                     </section>
@@ -300,7 +300,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 29 Aug 2022, 08:11:30 (timezone UTC) with lowlighter/metrics@3.27.0</span>
+                <span>Last updated 29 Aug 2022, 09:08:32 (timezone UTC) with lowlighter/metrics@3.27.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
