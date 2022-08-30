@@ -236,7 +236,7 @@
                                 Lua
                             </div>
                             <small>
-                                <div>691 lines</div>
+                                <div>692 lines</div>
                                 <div>55.44%</div>
                             </small>
                         </div>
@@ -300,7 +300,7 @@
             </section>
             <footer>
                 <span>These metrics do not include all private contributions</span>
-                <span>Last updated 30 Aug 2022, 20:08:53 (timezone UTC) with lowlighter/metrics@3.27.0</span>
+                <span>Last updated 30 Aug 2022, 21:08:07 (timezone UTC) with lowlighter/metrics@3.27.0</span>
             </footer>
         </div>
         <div xmlns="http://www.w3.org/1999/xhtml" id="metrics-end"></div>
