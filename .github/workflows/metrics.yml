@@ -39,7 +39,7 @@ jobs:
 #           plugin_anilist_shuffle: no
 #           plugin_anilist_user: PsychedelicShayna
           plugin_languages: yes
-          plugin_languages_indepth: yes
+          # plugin_languages_indepth: yes
           commits_authoring: PsychedelicShayna, Shayna, MisanthropicShayna
           plugin_languages_analysis_timeout: 20
           plugin_languages_categories: programming
