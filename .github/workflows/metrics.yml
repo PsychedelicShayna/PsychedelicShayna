@@ -62,4 +62,8 @@ jobs:
           plugin_topics_mode: icons
           plugin_topics_sort: stars
           plugin_gists: yes
+          plugin_16personalities: yes
+          plugin_16personalities_url: ${{ secrets.SIXTEEN_PERSONALITIES_URL }}
+          plugin_16personalities_sections: personality, traits, profile
+          plugin_16personalities_scores: no
 
