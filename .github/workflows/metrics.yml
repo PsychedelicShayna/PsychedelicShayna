@@ -46,7 +46,7 @@ jobs:
           plugin_languages_colors: github
           plugin_languages_details: lines, percentage
           plugin_languages_other: false
-          plugin_languages_ignored: ruby
+   #       plugin_languages_ignored: ruby
           plugin_languages_limit: 10,
           plugin_languages_recent_categories: programming, data, markup, prose
           plugin_languages_recent_days: 14
@@ -57,8 +57,9 @@ jobs:
           plugin_habits: yes
           plugin_habits_facts: yes
           plugin_habits_charts: no
-          plugin_topics: yes
+          plugin_topics: no
           plugin_topics_limit: 30
           plugin_topics_mode: icons
           plugin_topics_sort: stars
+          plugin_gists: yes
 
