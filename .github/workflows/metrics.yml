@@ -62,8 +62,4 @@ jobs:
           plugin_topics_mode: icons
           plugin_topics_sort: stars
           plugin_gists: yes
-          plugin_16personalities: yes
-          plugin_16personalities_url: https://www.16personalities.com/profiles/intj-t/f/xcqox2v0q
-          plugin_16personalities_sections: personality, traits
-          plugin_16personalities_scores: no
 
