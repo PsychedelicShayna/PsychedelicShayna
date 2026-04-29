@@ -40,7 +40,7 @@ jobs:
 #           plugin_anilist_user: PsychedelicShayna
           commits_authoring: PsychedelicShayna, Shayna, MisanthropicShayna
           plugin_languages: yes
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: no
           plugin_languages_sections: most-used
           plugin_languages_analysis_timeout: 60
           plugin_languages_categories: programming
@@ -60,7 +60,7 @@ jobs:
           plugin_topics_limit: 30
           plugin_topics_mode: icons
           plugin_topics_sort: stars
-          plugin_gists: yes
-          plugin_code: yes
+          plugin_gists: no
+          plugin_code: no
           plugin_code_languages: rust, c, cpp, haskell
 
