@@ -19,7 +19,7 @@ So **Tokei** + **filtration** will have to do for now.
 # not included. The ones that are included are still off but within a
 # rasonable margin of error, unlike, the 7 million in C, even though I
 # have written more C++ than C, and C++ (code not lines) is closer to
-# 190,000 not 323,195 but at elast it doesn't say 8,792,507 (C) lol
+# 190,000 not 323,195 but at last it doesn't say 8,792,507 (C) lol
 
 # Until I decide to fix metrics myself, this will have to do as a
 # temporary placeholder. A testament to the love of
