@@ -20,10 +20,19 @@ So **Tokei** + **filtration** will have to do for now.
 # rasonable margin of error, unlike, the 7 million in C, even though I
 # have written more C++ than C, and C++ (code not lines) is closer to
 # 190,000 not 323,195 but at last it doesn't say 8,792,507 (C) lol
+# which most likely comes from the ZMK firmware, as that is the only
+# project nested within my source tree that isn't mine, but needed
+# as part of the build process. The bnuuy-zephyr repository excludes
+# it and performs a high speed download of everything with aria2c to
+# get to the equivalent state. The rest of the oddities are 90% the
+# cause of Niels Lohmann. There are 248489 lines of C++ that come
+# directly from ~/source/fromdropbox and incidentally that is the only
+# directory where nlohmann is present $ rg nlohmann | wc -l; >> 3638
+# too many times. Thank you but damnit Niels. You'e sure left a mark.
 
 # Until I decide to fix metrics myself, this will have to do as a
-# temporary placeholder. A testament to the love of
-# programming language theory,
+# temporary placeholder. A testament to the love of polyglot
+# recreational programming & programming language theory <3
 
 # Filtered to the languages I actively have an interest in, even if they
 # do not appear in the list, eventually they will :)
